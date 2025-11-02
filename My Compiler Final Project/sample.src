@@ -1,0 +1,19 @@
+// ===== sample.src =====
+// A tiny example program in the mini language to test the pipeline.
+// Save this as sample.src and run: python3 main.py sample.src
+
+func main() {
+  a = 10;
+  b = 20;
+  c = a + b * 2;
+  print(c);
+
+  if (c > 0){
+      print(1);
+  }
+  else{
+      print(0);
+  }
+
+  return 0;
+}
